@@ -6,6 +6,7 @@ import (
 	"github.com/nescool101/rentManager/storage"
 	"html/template"
 	"log"
+	"os"
 	"strconv"
 	"time"
 
@@ -329,10 +330,10 @@ const emailTemplateHTML = `
 `
 
 func sendSimpleEmail(to, subject, body string) error {
-	host := "smtp.gmail.com"
-	portStr := "587"
-	user := "nescool10001@gmail.com"
-	pass := "bndpfcmeoyhhudyz"
+	host := os.Getenv("MAIL_HOST")
+	portStr := os.Getenv("MAIL_PORT")
+	user := os.Getenv("MAIL_USERNAME")
+	pass := os.Getenv("MAIL_PASSWORD")
 
 	port, err := strconv.Atoi(portStr)
 	if err != nil {
@@ -358,14 +359,10 @@ func sendSimpleEmail(to, subject, body string) error {
 }
 
 func sendEmail(to string, payer model.Payer) error {
-	//host := os.Getenv("MAIL_HOST")
-	//portStr := os.Getenv("MAIL_PORT")
-	//user := os.Getenv("MAIL_USERNAME")
-	//pass := os.Getenv("MAIL_PASSWORD")
-	host := "smtp.gmail.com"
-	portStr := "587"
-	user := "nescool10001@gmail.com"
-	pass := "bndpfcmeoyhhudyz"
+	host := os.Getenv("MAIL_HOST")
+	portStr := os.Getenv("MAIL_PORT")
+	user := os.Getenv("MAIL_USERNAME")
+	pass := os.Getenv("MAIL_PASSWORD")
 
 	port, err := strconv.Atoi(portStr)
 	if err != nil {

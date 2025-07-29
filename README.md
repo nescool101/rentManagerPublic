@@ -43,7 +43,13 @@ The application exposes the following API endpoint:
     ```
 
 2.  **Create a `.env` file:**
-    Create a file named `.env` in the root of the project and add the following environment variables. You can use the `.envExample.txt` as a reference.
+    Create a file named `.env` in the root of the project by copying the example file. Then, add the following environment variables. You can use the `.envExample.txt` as a reference.
+
+    ```bash
+    cp .envExample.txt .env
+    ```
+
+    Then, update the `.env` file with your actual credentials.
 
     ```
     MAIL_HOST=smtp.gmail.com
