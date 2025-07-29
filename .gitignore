@@ -30,3 +30,22 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+.envExample.txt
+.idea/sonarlint/issuestore/index.pb
+.idea/sonarlint/issuestore/3/b/3bbf51010dfb60f9570ab5d0cdb3c75e576900a1
+.idea/sonarlint/issuestore/4/7/47e67cd144f6884f1b6a58f60d89238b0e8f42e3
+.idea/sonarlint/issuestore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+.idea/sonarlint/issuestore/8/a/8a73c8c04212483bc30fdb99dd737a1570e65af6
+.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+.idea/sonarlint/issuestore/a/a/aa9b7766f4756ee6a29750fd43812d45e75a3ff0
+.idea/sonarlint/issuestore/d/4/d44e6e571a3d98fd482e9e1a0e74bcee86e67963
+.idea/sonarlint/issuestore/f/7/f78a71af8bbf8cc2f6f313549d4da14bd3771359
+.idea/sonarlint/securityhotspotstore/index.pb
+.idea/sonarlint/securityhotspotstore/3/b/3bbf51010dfb60f9570ab5d0cdb3c75e576900a1
+.idea/sonarlint/securityhotspotstore/4/7/47e67cd144f6884f1b6a58f60d89238b0e8f42e3
+.idea/sonarlint/securityhotspotstore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+.idea/sonarlint/securityhotspotstore/8/a/8a73c8c04212483bc30fdb99dd737a1570e65af6
+.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+.idea/sonarlint/securityhotspotstore/a/a/aa9b7766f4756ee6a29750fd43812d45e75a3ff0
+.idea/sonarlint/securityhotspotstore/d/4/d44e6e571a3d98fd482e9e1a0e74bcee86e67963
+.idea/sonarlint/securityhotspotstore/f/7/f78a71af8bbf8cc2f6f313549d4da14bd3771359
